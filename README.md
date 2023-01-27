@@ -26,3 +26,7 @@ To install the required libraries, please use the following commands:
 ```!pip install patchify```
 
 ```!pip install albumentations```
+
+![Alt text](Capture.PNG "Sample")
+![Alt text](Capture2.PNG "Sample")
+
