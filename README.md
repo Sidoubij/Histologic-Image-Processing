@@ -1,4 +1,5 @@
 # Histologic-Image-Processing
+
 This code is useful for handling high resolution and large-sized histologic images. It preprocesses the images by using the patchify library to divide the images into smaller patches, and then applies data augmentation using the albumentations library. This allows the processed images to be loaded into deep learning models that are designed to work with small images such as 256x256.
 
 
@@ -16,3 +17,11 @@ The script defines several functions that perform different tasks:
 - The `display_Allpatches` function takes a list of patches as input and displays them as a grid of images.
 
 In the last part of the script, the script reads an image from the specified path, extracts patches from the image, and then displays a random patch from the list of patches. The script also prints the shape of the patches list.
+
+# Installation
+
+To install the required libraries, please use the following commands:
+
+```!pip install patchify```
+
+```!pip install albumentations```
