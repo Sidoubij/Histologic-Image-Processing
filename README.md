@@ -17,7 +17,6 @@ The script defines several functions that perform different tasks:
 - The `display_Allpatches` function takes a list of patches as input and displays them as a grid of images.
 
 In the last part of the script, the script reads an image from the specified path, extracts patches from the image, and then displays a random patch from the list of patches. The script also prints the shape of the patches list.
-![Alt text](Capture.PNG "Sample")
 
 # Installation
 
